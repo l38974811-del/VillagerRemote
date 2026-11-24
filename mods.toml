@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="villagerremote"
+version="1.0.0"
+displayName="Villager Remote"
+authors="OpenAI"
+description='''A crafted remote control for villagers. Scan nearby villagers, order each one to follow you, stop, or mine a selected block.'''
+
+[[dependencies.villagerremote]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.villagerremote]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
